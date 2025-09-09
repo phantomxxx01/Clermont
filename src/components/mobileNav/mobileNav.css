@@ -1,0 +1,65 @@
+.Nav{
+    display:none;
+}
+
+.MobileNav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo{
+    display: flex;
+    width: 70px;
+    height: 60px;
+}
+
+.navlogo img{
+    width: 70px;
+    height: 60px;
+}
+
+.nav-right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.nav-right .login{
+    background: #ccbd95;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    margin-top: -1px;
+}
+
+.nav-right .login:hover{
+    background: #e0d3b3;
+    scale: 1.05;
+}
+
+.nav-right .watch{
+    background:  #042a5b;
+    color: #ead49e;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    margin-top: -1px;
+}
+
+.nav-right .watch:hover{
+    background: #8daad0;
+    scale: 1.05;
+}
+
+
+.nav-right .hamburger{
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+

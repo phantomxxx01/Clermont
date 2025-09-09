@@ -3,7 +3,6 @@ const NewsPage = () => {
     return (
         <main>
             <div>
-
             </div>
         </main>
     )

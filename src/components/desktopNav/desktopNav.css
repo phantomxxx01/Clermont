@@ -1,0 +1,165 @@
+.MobileNav{
+    display: none;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 70px;
+}
+
+.nav-logo img{
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    color: black;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.links li{
+    transition: all 0.3s ease;
+}
+
+.links li:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.links .menulink, .business, .more, .politics, .world, .entertainment, .sports{
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+
+.links .more{
+    display: flex;
+}
+
+.more p{
+    font-size: 17px;
+}
+
+.nav-log{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.nav-log .login{
+    background: #ccbd95;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    margin-top: -1px;
+}
+
+.nav-log .login:hover{
+    background: #e0d3b3;
+    scale: 1.05;
+}
+
+.nav-log .watch {
+    background:  #042a5b;
+    color: #ead49e;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    margin-top: -1px;
+}
+
+.nav-log .watch:hover{
+    background: #8daad0;
+    scale: 1.05;
+}
+
+.nav-log .search{
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-log .search:hover{
+    scale: 1.05;
+}
+
+@media (max-width: 1080px) {
+    .MobileNav{
+        display: none;
+    }
+    .nav-content{
+        padding: 12px;
+    }
+    .nav-logo{
+        height: 70px;
+        width: 60px;
+    }
+
+    .nav-logo img{
+        width: 70px;
+        height: 60px;
+    }
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 1.5rem;
+        color: black;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .nav-log{
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .nav-log .login{
+        background: #ccbd95;
+        padding: 6px;
+        border-radius: 4px;
+        transition: 0.3s all ease-in-out;
+        margin-top: -1px;
+    }
+
+    .nav-log .login:hover{
+        background: #e0d3b3;
+        scale: 1.05;
+    }
+
+    .nav-log .watch {
+        background:  #042a5b;
+        color: #ead49e;
+        padding: 6px;
+        border-radius: 4px;
+        transition: 0.3s all ease-in-out;
+        margin-top: -1px;
+    }
+}
+
