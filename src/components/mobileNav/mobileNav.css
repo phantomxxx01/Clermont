@@ -1,10 +1,14 @@
-.Nav{
-    display:none;
-}
-
 .MobileNav{
     display: flex;
-    padding: 15px;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    z-index: 999;
+}
+
+.MobileNavHeader{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -24,25 +28,11 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 1.5rem;
-    margin-right: 20px;
+    gap: 1rem;
     font-weight: bold;
 }
 
 .nav-right .login{
-    background: #ccbd95;
-    padding: 7px;
-    border-radius: 5px;
-    transition: 0.3s all ease-in-out;
-    margin-top: -1px;
-}
-
-.nav-right .login:hover{
-    background: #e0d3b3;
-    scale: 1.05;
-}
-
-.nav-right .watch{
     background:  #042a5b;
     color: #ead49e;
     padding: 7px;
@@ -51,11 +41,10 @@
     margin-top: -1px;
 }
 
-.nav-right .watch:hover{
+.nav-right .login:hover{
     background: #8daad0;
     scale: 1.05;
 }
-
 
 .nav-right .hamburger{
     border: none;
@@ -63,3 +52,73 @@
     cursor: pointer;
 }
 
+.mobile-link{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem;
+    margin-top: 10px;
+    gap: 1.2rem;
+    color: black;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.mobile-link .news, .business, .more, .politics, .world, .entertainment, .sports{
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search .search-form{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    border: 1px black solid;
+    border-radius: 15px;
+    outline: none;
+    padding: 3px;
+}
+
+.search .search-form input{
+    width: 215px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    background: none;
+    color: inherit;
+}
+
+.more-options .more{
+    display: flex;
+}
+
+.watchtv .watch{
+    background:  #042a5b;
+    color: #ead49e;
+    padding: 7px 40px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+    width: 170px;
+    font-weight: bold;
+}
+
+.watchtv .watch:hover{
+    background: #8daad0;
+    scale: 1.05;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 10px;
+    width: 200px;
+}
+
+.logos .logo-icon{
+    display: flex;
+    padding-left: 10px;
+    gap: 20px;
+    font-size: 20px;
+}

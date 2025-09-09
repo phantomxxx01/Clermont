@@ -1,0 +1,58 @@
+.news-component {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 30px 40px;
+}
+
+.news-header1{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    gap: 0.6rem;
+    color: dimgrey;
+}
+
+.news-header1 .news-business{
+    font-weight: 500;
+    color: black;
+}
+
+.news-header2 h1{
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 0.1rem;
+    max-width: 90%;
+}
+
+.news-header3 p{
+    display: flex;
+    color: dimgrey;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+}
+
+.news-header4 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 14px;
+}
+
+.news-header4 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.news-header4 p{
+    font-weight: 700;
+    color: rgba(22, 22, 66, 0.98);
+}
+
+.by{
+    font-size: 13px;
+    font-weight: 400;
+    color: dimgrey;
+}

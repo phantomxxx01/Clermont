@@ -36,7 +36,7 @@ export const NewsDetails = [
             "Detectives say Williams is linked to multiple fraudulent enterprises stretching across state lines.\n" +
             "\n" +
             "“This cooperation could be the key to dismantling a wider network,” said Hernandez. “But we are cautious. " +
-            "We’ve heard promises before — now we need to see results.”"
+            "We’ve heard promises before, now we need to see results.”"
     },{
         id: 4,
         heading: "Court Hearing Scheduled in Federal Case",
@@ -78,4 +78,86 @@ export const NewsDetails = [
             "For Clermont, the arrest of Jamal Wanyama marks the start of a much larger legal battle, one that could" +
             " expose an entire network of financial crime hidden in plain sight."
     },
+]
+
+export const NewsList = [
+    {
+        id: 1,
+        img: "/sleep.webp",
+        content: "Sleep Apnea: Why Top Experts Are Calling This the Most Ingenious Pillow of 2025",
+        type: "3 min read"
+    },
+    {
+        id: 2,
+        img: "/tariff.jpg",
+        content: "Tariff-exposed industries are losing jobs",
+        type: "2 min read"
+    },
+    {
+        id: 3,
+        img: "/elvis.webp",
+        content: "Elvis Presley’s Former Los Angeles Home Lists for $24.5 Million",
+        type: "5 min read"
+    },
+    {
+        id: 4,
+        img: "/disability.webp",
+        content: "Uk disability benefit cuts: Social justice in crisis",
+        type: "ips-journal.eu"
+    },
+    {
+        id: 5,
+        img: "/ready.jpg",
+        content: "Get ready for more employment data revisions",
+        type: "3 mins read",
+    },
+    {
+        id: 6,
+        img: "/trump.jpg",
+        content: "Trump’s attempts to undermine faith in the jobs data hit a wall Friday. Here’s how the report really works",
+        type: "4 mins read",
+    }
+]
+
+export const NewsList2 = [
+    {
+        id: 1,
+        content: "Trump’s Epstein letter denial just suffered another huge blow"
+    },
+    {
+        id: 2,
+        content: "5 takeaways from the new Epstein documents"
+    },
+    {
+        id: 3,
+        content: "House committee releases ‘birthday book,’ other records from Epstein estate"
+    },
+    {
+        id: 4,
+        content: "Friend of Michael Brown who helped spark ‘hands up, don’t shoot’ chant dies after being shot in Ferguson"
+    },
+    {
+        id: 5,
+        content: "Israeli carries out strike targeting Hamas leadership in Qatar"
+    },
+    {
+        id: 6,
+        content: "Police shoot dead fugitive father and find his three children missing for years in wilderness"
+    },
+    {
+        id: 7,
+        content: "Amazon is eliminating one of its most generous legacy perks"
+    },
+    {
+        id: 8,
+        content: "The violent end for a fugitive father who hid his children from the world"
+    },
+    {
+        id: 9,
+        content: "French government collapses after prime minister loses confidence vote"
+    },
+    {
+        id: 10,
+        content: "Why a near-fistfight at a MAGA nightspot spells danger for the global economy"
+    }
 ]

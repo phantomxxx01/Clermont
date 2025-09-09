@@ -1,0 +1,40 @@
+.otherNews-container{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+.otherNews-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+}
+
+.otherNews-item-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px
+}
+
+.otherNews-item img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.otherNews-item h2{
+    font-weight: 600;
+    font-size: 16px;
+    width: 250px;
+}
+
+.otherNews-item h2:hover{
+    text-decoration: underline;
+}
+
+
+/*Right*/
+.otherNews-right{
+    width: 60%
+}
