@@ -122,42 +122,234 @@ export const NewsList = [
 export const NewsList2 = [
     {
         id: 1,
+        no: "1.",
         content: "Trump’s Epstein letter denial just suffered another huge blow"
     },
     {
         id: 2,
+        no: "2.",
         content: "5 takeaways from the new Epstein documents"
     },
     {
         id: 3,
+        no: "3.",
         content: "House committee releases ‘birthday book,’ other records from Epstein estate"
     },
     {
         id: 4,
+        no: "4.",
         content: "Friend of Michael Brown who helped spark ‘hands up, don’t shoot’ chant dies after being shot in Ferguson"
     },
     {
         id: 5,
+        no: "5.",
         content: "Israeli carries out strike targeting Hamas leadership in Qatar"
     },
     {
         id: 6,
+        no: "6.",
         content: "Police shoot dead fugitive father and find his three children missing for years in wilderness"
     },
     {
         id: 7,
+        no: "7.",
         content: "Amazon is eliminating one of its most generous legacy perks"
     },
     {
         id: 8,
+        no: "8.",
         content: "The violent end for a fugitive father who hid his children from the world"
     },
     {
         id: 9,
+        no: "9.",
         content: "French government collapses after prime minister loses confidence vote"
     },
     {
         id: 10,
+        no: "10.",
         content: "Why a near-fistfight at a MAGA nightspot spells danger for the global economy"
     }
 ]
+
+export const World = [
+    {
+        id: 1,
+        content: "Africa",
+    },
+    {
+        id: 2,
+        content: "Americas",
+    },
+    {
+        id: 3,
+        content: "Asia",
+    },
+    {
+        id: 4,
+        content: "Australia",
+    },
+    {
+        id: 5,
+        content: "China",
+    },
+    {
+        id: 6,
+        content: "Europe",
+    },
+    {
+        id: 7,
+        content: "India",
+    },
+    {
+        id: 8,
+        content: "Middle East",
+    },
+    {
+        id: 9,
+        content: "United Kingdom",
+    },
+]
+
+export const Politics = [
+    {
+        id: 1,
+        content: "Trump",
+    },
+    {
+        id: 2,
+        content: "Facts First",
+    },
+    {
+        id: 3,
+        content: "CNN Polls",
+    },
+    {
+        id: 4,
+        content: "2025 Elections",
+    }
+]
+
+export const Business = [
+    {
+        id: 1,
+        content: "Tech",
+    },
+    {
+        id: 2,
+        content: "Media",
+    },
+    {
+        id: 3,
+        content: "Calculators",
+    },
+    {
+        id: 4,
+        content: "Videos",
+    },
+]
+
+export const News = [
+    {
+        id: 1,
+        content: "Crime",
+    },
+    {
+        id: 2,
+        content: "Immigration",
+    },
+    {
+        id: 3,
+        content: "Terrorism",
+    },
+    {
+        id: 4,
+        content: "Environment",
+    },
+    {
+        id: 5,
+        content: "Global Disaster",
+    },
+    {
+        id: 6,
+        content: "Economy",
+    },
+]
+
+export const Entertainment = [
+    {
+        id: 1,
+        content: "Movies",
+    },
+    {
+        id: 2,
+        content: "Television",
+    },
+    {
+        id: 3,
+        content: "Celebrity",
+    },
+]
+
+export const Sports = [
+    {
+        id: 1,
+        content: "Football",
+    },
+    {
+        id: 2,
+        content: "Tennis",
+    },
+    {
+        id: 3,
+        content: "Golf",
+    },{
+        id: 4,
+        content: "Motorsport",
+    },
+    {
+        id: 5,
+        content: "US Sports",
+    },
+    {
+        id: 6,
+        content: "Olympics",
+    },
+]
+
+export const More = [
+    {
+        id: 1,
+        content: "Travel",
+    },
+    {
+        id: 2,
+        content: "Tech",
+    },
+    {
+        id: 3,
+        content: "Science",
+    },
+    {
+        id: 4,
+        content: "Weather",
+    },
+    {
+        id: 5,
+        content: "Games",
+    },
+    {
+        id: 6,
+        content: "Features",
+    },
+]
+
+
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@
 .news-card{
     display: flex;
     flex-direction: column;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
 }
 
 .news-img{
@@ -50,6 +50,7 @@
 .news-details .news-title{
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 20px;
     font-weight: 600;
     color: rgba(4, 42, 91, 0.95);
     cursor: pointer;

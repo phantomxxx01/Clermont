@@ -18,9 +18,12 @@ const OtherNews = () => {
             </div>
             <div className="otherNews-right">
                 <h2>Most Read</h2>
-                {NewsList2.map(({id, content}) => (
+                {NewsList2.map(({id, no, content}) => (
                     <ul className="otherNews-item2" key={id}>
-                        <li>{content}</li>
+                        <li>
+                            <p>{no}</p>
+                            <p className="items-content">{content}</p>
+                        </li>
                     </ul>
                 ))}
             </div>
