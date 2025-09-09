@@ -3,6 +3,7 @@
     flex-direction: row;
     padding: 4rem;
     gap: 2rem;
+    overflow: hidden;
 }
 
 .otherNews-left{
@@ -76,4 +77,113 @@
 
 .otherNews-right .otherNews-item2 .items-content:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 810px) {
+    .otherNews-container{
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .otherNews-left{
+        gap: 10px;
+        width: 70%;
+    }
+
+    .otherNews-item-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px
+    }
+
+    .otherNews-item{
+        height: 230px;
+    }
+
+    .otherNews-item img{
+        width: 180px;
+        height: 130px;
+        border-radius: 8px;
+    }
+
+    .otherNews-item h2{
+        font-weight: 500;
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .otherNews-item h2:hover{
+        text-decoration: underline;
+    }
+
+
+    /*Right*/
+    .otherNews-right{
+        gap: 15px;
+        width: 55%
+    }
+
+    .otherNews-right .otherNews-item2 li{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .otherNews-right .otherNews-item2 p{
+        font-weight: bold;
+    }
+
+    .otherNews-right .otherNews-item2 .items-content{
+        font-weight: 400;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .otherNews-container{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .otherNews-item-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .otherNews-item{
+        height: 180px;
+    }
+
+    .otherNews-item img{
+        width: 140px;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+    .otherNews-item h2 {
+        font-weight: 500;
+        font-size: 14px;
+        width: 250px;
+    }
+    /*Right*/
+    .otherNews-right{
+        gap: 15px;
+        width: 100%
+    }
+
+    .otherNews-right .otherNews-item2 li{
+        gap: 10px;
+    }
+
+    .otherNews-right .otherNews-item2 p{
+        font-weight: bold;
+    }
+
+    .otherNews-right .otherNews-item2 .items-content{
+        font-weight: 400;
+    }
 }
