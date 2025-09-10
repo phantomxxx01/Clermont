@@ -24,7 +24,7 @@ const MobileNav = () => {
                         onClick={() => setOpen((prev) => !prev)}
                     >
                         {
-                            open ? <X /> : <Menu />
+                            open ? <X color="black" strokeWidth={2}/> : <Menu color="black" strokeWidth={2}  />
                         }
                     </button>
                 </div>

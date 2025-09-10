@@ -8,7 +8,7 @@ const NewsContent = () => {
             <div className="news-card">
                 <div className="news-img">
                     <img src="/newsImg.jpg" alt="Jamal Wayama" />
-                    <p>33-year-old Jamal Wayama taken into custody on September 9 over allegations of identity theft and financial fraud.</p>
+                    <p>33-year-old Jamal Wayama taken into custody on September 11 over allegations of identity theft and financial fraud.</p>
                 </div>
 
                 <div className="news-content">

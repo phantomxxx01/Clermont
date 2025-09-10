@@ -8,6 +8,7 @@
 .news-header1{
     display: flex;
     flex-direction: row;
+    font-weight: 500;
     font-size: 13px;
     gap: 0.6rem;
     color: dimgrey;
@@ -55,4 +56,53 @@
     font-size: 13px;
     font-weight: 400;
     color: dimgrey;
+}
+
+@media (max-width: 1080px) {
+    .news-header2 h1{
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .news-header4 p{
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 810px) {
+    .news-component {
+        gap: 0.6rem;
+        padding: 30px 20px;
+    }
+
+    .news-header1{
+        gap: 0.5rem;
+    }
+
+    .news-header2 h1{
+        font-weight: 800;
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    .news-header3 p{
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .news-header4 {
+        gap: 0.5rem;
+        font-size: 13px;
+    }
+
+    .news-header4 img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .news-header4 p{
+        font-weight: 600;
+    }
 }

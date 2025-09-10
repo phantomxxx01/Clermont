@@ -1,6 +1,7 @@
 .news-container{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .news-card{
@@ -28,7 +29,7 @@
 .news-img p{
     font-size: 14px;
     color: dimgray;
-    width: 70%;
+    width: 51%;
     font-weight: 400;
     line-height: 1.4;
 }
@@ -38,7 +39,7 @@
     max-width: 95%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .news-details{
@@ -65,4 +66,98 @@
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.6px;
+}
+
+@media (max-width: 1080px) {
+    .news-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .news-card{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+    .news-img{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+    }
+    .news-img img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .news-img p{
+        padding-left: 15px;
+    }
+
+    .news-content{
+        padding: 3rem 0.5rem;
+        max-width: 100%;
+        gap: 25px;
+    }
+
+    .news-details .news-title{
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+
+    .news-details .news-description{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 640px) {
+    .news-card{
+        padding: 15px 0;
+    }
+
+    .news-img{
+        gap: 10px;
+        max-width: 100%;
+    }
+
+    .news-img img{
+        width: 340px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .news-img p{
+        font-size: 13px;
+        color: dimgray;
+        width: 90%;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+
+    .news-content{
+        padding: 2rem 1.5rem;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .news-details{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .news-details .news-title{
+        font-size: 16px;
+        font-weight: 550;
+    }
+
+    .news-details .news-description{
+        font-size: 16px;
+        line-height: 1.4;
+        letter-spacing: 0;
+    }
 }

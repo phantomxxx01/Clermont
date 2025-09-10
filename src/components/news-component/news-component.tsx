@@ -16,15 +16,15 @@ const NewsComponent = () => {
             </span>
 
             <span className="news-header3">
-                <p>Published September 9, 2025 8:00am EDT</p>
+                <p>Published September 11, 2025 8:00am EDT</p>
             </span>
 
             <span className="news-header4">
-                <img src="/male.webp" alt="James" />
+                <img src="/femal.webp" alt="James" />
                 <p className="by">By</p>
-                <p>James Joseph</p>
+                <p>Blake Kimberly</p>
                 <p className="by">•</p>
-                <p>Clermont 247 News</p>
+                <p>Clermont 247</p>
             </span>
         </div>
     )

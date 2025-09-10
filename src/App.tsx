@@ -9,6 +9,7 @@ const App = () => {
         <div className="App">
             <Nav />
             <Routes>
+                <Route path="/" element={<NewsPage />} />
                 <Route path="/news+clermont+breaking-news11232" element={<NewsPage />} />
             </Routes>
             <Footer />

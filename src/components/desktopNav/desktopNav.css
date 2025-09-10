@@ -19,6 +19,7 @@
     width: 70px;
     height: 60px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .link{
