@@ -72,7 +72,7 @@
 .mobile-link .news, .business, .more, .politics, .world, .entertainment, .sports{
     font-weight: 600;
     text-decoration: none;
-    color: inherit;
+    color: black !important;
 }
 
 .search .search-form{

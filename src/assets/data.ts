@@ -85,37 +85,43 @@ export const NewsList = [
         id: 1,
         img: "/sleep.webp",
         content: "Sleep Apnea: Why Top Experts Are Calling This the Most Ingenious Pillow of 2025",
-        type: "3 min read"
+        type: "3 min read",
+        link: "https://www.sleepfoundation.org/best-pillows/best-pillow-for-sleep-apnea"
     },
     {
         id: 2,
         img: "/tariff.jpg",
         content: "Tariff-exposed industries are losing jobs",
-        type: "2 min read"
+        type: "2 min read",
+        link: "https://www.abccolumbia.com/2025/09/09/industries-losing-jobs-due-to-tariffs/"
     },
     {
         id: 3,
         img: "/elvis.webp",
         content: "Elvis Presley’s Former Los Angeles Home Lists for $24.5 Million",
-        type: "5 min read"
+        type: "5 min read",
+        link: "https://www.mansionglobal.com/articles/elvis-presley-los-angeles-beverly-hills-home-lists-for-24-5-million-c941f113"
     },
     {
         id: 4,
         img: "/disability.webp",
         content: "Uk disability benefit cuts: Social justice in crisis",
-        type: "ips-journal.eu"
+        type: "ips-journal.eu",
+        link: "https://www.bigissue.com/news/social-justice/disabled-people-food-banks-trussell-benefit-cuts/"
     },
     {
         id: 5,
         img: "/ready.jpg",
         content: "Get ready for more employment data revisions",
         type: "3 mins read",
+        link: "https://edition.cnn.com/2025/09/09/business/bls-preliminary-benchmark-jobs-revisions"
     },
     {
         id: 6,
         img: "/trump.jpg",
         content: "Trump’s attempts to undermine faith in the jobs data hit a wall Friday. Here’s how the report really works",
         type: "4 mins read",
+        link: "https://edition.cnn.com/2025/09/05/business/trump-jobs-report-data"
     }
 ]
 
@@ -123,52 +129,63 @@ export const NewsList2 = [
     {
         id: 1,
         no: "1.",
-        content: "Trump’s Epstein letter denial just suffered another huge blow"
+        content: "Trump’s Epstein letter denial just suffered another huge blow",
+        link: "https://lawandcrime.com/high-profile/congressional-revelation-of-birthday-letter-to-epstein-is-a-stunning-blow-for-trump-lawsuit-against-wsj-legal-expert-says/"
     },
     {
         id: 2,
         no: "2.",
-        content: "5 takeaways from the new Epstein documents"
+        content: "5 takeaways from the new Epstein documents",
+        link: "https://uk.news.yahoo.com/trump-listed-epsteins-friends-birthday-100000354.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuYmluZy5jb20v&guce_referrer_sig=AQAAAKA16x21D0jmj7fLV_3-2cJGCcOheRcuEau0rcUpUCaPjAEPxY9Xtciyl4niKGqQrBGW91aELcdGWMrl0CllYvKPf4ATsFw8Y9ub00z5ktvR6cjhI3FrNb9DltD3pgck6-8w6xXmG0Eq-QxlI4Q4wJ15HaKjr7pKKsn0ZM7E6PG1"
     },
     {
         id: 3,
         no: "3.",
-        content: "House committee releases ‘birthday book,’ other records from Epstein estate"
+        content: "House committee releases ‘birthday book,’ other records from Epstein estate",
+        link: "https://edition.cnn.com/2025/09/08/politics/epstein-estate-birthday-book-documents-house-oversight?Profile=CNN"
     },
     {
         id: 4,
         no: "4.",
-        content: "Friend of Michael Brown who helped spark ‘hands up, don’t shoot’ chant dies after being shot in Ferguson"
+        content: "Friend of Michael Brown who helped spark ‘hands up, don’t shoot’ chant dies after being shot in" +
+            " Ferguson",
+        link: "https://www.nytimes.com/2025/09/08/us/dorian-johnson-ferguson-michael-brown.html"
     },
     {
         id: 5,
         no: "5.",
-        content: "Israeli carries out strike targeting Hamas leadership in Qatar"
+        content: "Israeli carries out strike targeting Hamas leadership in Qatar",
+        link: "https://www.msn.com/en-us/news/world/israel-carries-out-attack-against-hamas-leadership-in-qatar-israeli-source-says/ar-AA1MbQdW?ocid=BingNewsSerp"
     },
     {
         id: 6,
         no: "6.",
-        content: "Police shoot dead fugitive father and find his three children missing for years in wilderness"
+        content: "Police shoot dead fugitive father and find his three children missing for years in wilderness",
+        link: "https://www.bbc.com/news/live/c5yer8g9q9gt"
     },
     {
         id: 7,
         no: "7.",
-        content: "Amazon is eliminating one of its most generous legacy perks"
+        content: "Amazon is eliminating one of its most generous legacy perks",
+        link: "https://edition.cnn.com/2025/09/08/tech/amazon-prime-invitee-shipping-changes"
     },
     {
         id: 8,
         no: "8.",
-        content: "The violent end for a fugitive father who hid his children from the world"
+        content: "The violent end for a fugitive father who hid his children from the world",
+        link: "https://www.independent.co.uk/news/world/australasia/tom-phillips-new-zealand-fugitive-killed-b2822426.html#:~:text=A%20fugitive%20father%20who%20had%20been%20evading%20New,officer%20on%20Monday%2C%20law%20enforcement%20officials%20have%20confirmed."
     },
     {
         id: 9,
         no: "9.",
-        content: "French government collapses after prime minister loses confidence vote"
+        content: "French government collapses after prime minister loses confidence vote",
+        link: "https://en.mehrnews.com/news/236261/French-gov-collapses-after-PM-loses-confidence-vote"
     },
     {
         id: 10,
         no: "10.",
-        content: "Why a near-fistfight at a MAGA nightspot spells danger for the global economy"
+        content: "Why a near-fistfight at a MAGA nightspot spells danger for the global economy",
+        link: "https://thesmokingchair.com/the-short-term-appeal-and-long-term-risks-of-maga-policies/#:~:text=MAGA%20policies%20are%20designed%20to%20deliver%20immediate%20emotional,risks%2C%20from%20economic%20instability%20to%20weakened%20global%20influence."
     }
 ]
 
